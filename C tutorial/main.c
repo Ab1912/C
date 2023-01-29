@@ -10,21 +10,19 @@ int id;
 }
 
 main(){
-struct Student st1,st2,id;
+struct Student st1,st2;
 strcpy(st1.name,"Abi");
 strcpy(st1.cls,"A");
-id.id=1;
+st1.id=1;
 strcpy(st2.name,"Kumar");
 strcpy(st2.cls,"B");
-id.id=2;
+st2.id=2;
 
 printf("Name : %s\n",st1.name);
 printf("Class : %s\n",st1.cls);
-printf("ID : %d\n",id.id);
+printf("ID : %d\n",st1.id);
 
 printf("Name : %s\n",st2.name);
 printf("Class : %s\n",st2.cls);
-printf("ID : %d\n",id.id);
-
-
+printf("ID : %d\n",st2.id);
 }
