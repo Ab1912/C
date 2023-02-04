@@ -20,5 +20,4 @@ int main(int argc, char const *argv[])
     c=a%b;
     printf("Modulos : %d",c);
     return 0;
-
 }
